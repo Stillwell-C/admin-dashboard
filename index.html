@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+        <div class="body-container">
+            <div class="sidebar">
+                <div class="sidebar-top">
+                    <a href="#">
+                        <img src="images/view-dashboard.svg" alt=""><h2>Dashboard</h2>
+                    </a>
+                </div>
+                <div class="sidebar-middle">
+                    <ul>
+                        <li><a href="#"><img src="images/home.svg" alt="home icon"> <span>Home</span> </a></li>
+                        <li><a href="#"><img src="images/profile.svg" alt="profile icon"> <span>Profile</span> </a></li>
+                        <li><a href="#"><img src="images/message.svg" alt="messages icon"> <span>Messages</span> </a></li>
+                        <li><a href="#"><img src="images/clock.svg" alt="history icon"> <span>History</span> </a></li>
+                        <li><a href="#"><img src="images/tasks.svg" alt="tasks icon"> <span>Tasks</span> </a></li>
+                        <li><a href="#"><img src="images/communities.svg" alt="communities icon"> <span>Communities</span> </a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-bottom">
+                    <ul>
+                        <li><a href="#"><img src="images/settings.svg" alt="settings icon"> <span>Settings</span> </a></li>
+                        <li><a href="#"><img src="images/support.svg" alt="support icon"> <span>Support</span> </a></li>
+                        <li><a href="#"><img src="images/privacy.svg" alt="privacy icon"> <span>Privacy</span> </a></li>
+                    </ul>
+                </div>
+                <!-- Drop down -->
+                <button class="drop-down" id="dd-btn"><img src="images/menu.svg" alt=""></button>
+            </div>
+            <div class="dd-menu hidden" id="menu">
+                <div class="dd-middle">
+                    <ul>
+                        <li><a href="#"><img src="images/home.svg" alt="home icon"> <span>Home</span> </a></li>
+                        <li><a href="#"><img src="images/profile.svg" alt="profile icon"> <span>Profile</span> </a></li>
+                        <li><a href="#"><img src="images/message.svg" alt="messages icon"> <span>Messages</span> </a></li>
+                        <li><a href="#"><img src="images/clock.svg" alt="history icon"> <span>History</span> </a></li>
+                        <li><a href="#"><img src="images/tasks.svg" alt="tasks icon"> <span>Tasks</span> </a></li>
+                        <li><a href="#"><img src="images/communities.svg" alt="communities icon"> <span>Communities</span> </a></li>
+                    </ul>
+                </div>
+                <div class="dd-bottom">
+                    <ul>
+                        <li><a href="#"><img src="images/settings.svg" alt="settings icon"> <span>Settings</span> </a></li>
+                        <li><a href="#"><img src="images/support.svg" alt="support icon"> <span>Support</span> </a></li>
+                        <li><a href="#"><img src="images/privacy.svg" alt="privacy icon"> <span>Privacy</span> </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header">
+                <div class="header-top">
+                    <div class="header-top-left">
+                        <a href="#"><img src="images/magnify.svg" alt="Magnifying glass icon"></a>
+                        <input type="text">
+                    </div>
+                    <div class="header-top-right">
+                        <a href="#"><img src="images/bell-ring-outline.svg" alt="Bell icon"></a>
+                        <a href="#" ><img class="header-avatar" src="images/avatar-svgrepo-com.svg" alt="Profile avatar"></a>
+                        <a href="#">Thomas Hodge</a>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="header-bottom-left">
+                        <a href="#"><img src="images/avatar-svgrepo-com.svg" alt="Profile avatar"></a>
+                        <div>
+                            <p>Hi there,</p>
+                            <h3>Thomas Hodge (@mrhodge)</h3>
+                        </div>
+                    </div>
+                    <div class="header-bottom-right">
+                        <a href="#">New</a>
+                        <a href="#">Upload</a>
+                        <a href="#">Share</a>
+                    </div>
+                </div>
+            </div>
+            <section class="main-container">
+                <div class="left-main">
+                    <h4>Your projects</h4>
+                    <div class="left-main-grid">
+                        <div>
+                            <h5>Super Cool Project</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero illum qui repellat aliquam culpa, quas porro deleniti neque magni.</p>
+                            <div class="lmg-img">
+                                <a href=""><img src="images/star-plus-outline.svg" alt="Add start button"></a>
+                                <a href=""><img src="images/eye-plus-outline.png" alt="Add view button"></a>
+                                <a href=""><img src="images/source-fork.svg" alt="Add fork button"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Less Cool Project</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatem neque at vitae, nulla optio cupiditate, dolores voluptatum maiores tempora distinctio nemo dolore impedit quas, sed ratione omnis ipsum. Minima.</p>
+                            <div class="lmg-img">
+                                <a href=""><img src="images/star-plus-outline.svg" alt="Add start button"></a>
+                                <a href=""><img src="images/eye-plus-outline.png" alt="Add view button"></a>
+                                <a href=""><img src="images/source-fork.svg" alt="Add fork button"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Impossible App</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, itaque aperiam doloribus et dolorum quo deserunt unde assumenda!</p>
+                            <div class="lmg-img">
+                                <a href=""><img src="images/star-plus-outline.svg" alt="Add start button"></a>
+                                <a href=""><img src="images/eye-plus-outline.png" alt="Add view button"></a>
+                                <a href=""><img src="images/source-fork.svg" alt="Add fork button"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Easy Peasy App</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo quaerat praesentium ad, a, repudiandae excepturi quae laborum maiores illum sunt eum.</p>
+                            <div class="lmg-img">
+                                <a href=""><img src="images/star-plus-outline.svg" alt="Add start button"></a>
+                                <a href=""><img src="images/eye-plus-outline.png" alt="Add view button"></a>
+                                <a href=""><img src="images/source-fork.svg" alt="Add fork button"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Ad Blocker</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolore provident, illo ipsum quae doloremque ea optio, assumenda reprehenderit voluptatum rem neque quas dicta.</p>
+                            <div class="lmg-img">
+                                <a href=""><img src="images/star-plus-outline.svg" alt="Add start button"></a>
+                                <a href=""><img src="images/eye-plus-outline.png" alt="Add view button"></a>
+                                <a href=""><img src="images/source-fork.svg" alt="Add fork button"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Money Maker</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque sint ut quasi quas alias sapiente vero ex tempora doloremque odio laboriosam rem dolor, explicabo quae nesciunt.</p>
+                            <div class="lmg-img">
+                                <a href=""><img src="images/star-plus-outline.svg" alt="Add start button"></a>
+                                <a href=""><img src="images/eye-plus-outline.png" alt="Add view button"></a>
+                                <a href=""><img src="images/source-fork.svg" alt="Add fork button"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-main">
+                    <h4>Announcements</h4>
+                    <div class="right-main-top">
+                        <div>
+                            <h6>Site Maintenance</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod temporibus eligendi.</p>
+                        </div>
+                        <div>
+                            <h6>Community Share Day</h6>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque nemo quasi ipsum dolor totam?</p>
+                        </div>
+                        <div>
+                            <h6>Updated Privacy Policy</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas corrupti expedita laboriosam dignissimos?</p>
+                        </div>
+                    </div>
+                    <h4>Trending</h4>
+                    <div class="right-main-bottom">
+                        <div class="trending-profiles">
+                            <a href="#"><img src="images/avatar-svgrepo-com (1).svg" alt="Profile avatar"></a>
+                            <div>
+                                <h6>@tegan</h6>
+                                <p>World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="trending-profiles">
+                            <a href="#"><img src="images/avatar-svgrepo-com.svg" alt="Profile avatar"></a>
+                            <div>
+                                <h6>@mrhodge</h6>
+                                <p>Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="trending-profiles">
+                            <a href="#"><img src="images/avatar-svgrepo-com (2).svg" alt="Profile avatar"></a>
+                            <div>
+                                <h6>@kendall</h6>
+                                <p>Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="trending-profiles">
+                            <a href="#"><img src="images/avatar-svgrepo-com (3).svg" alt="Profile avatar"></a>
+                            <div>
+                                <h6>@alex</h6>
+                                <p>No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
